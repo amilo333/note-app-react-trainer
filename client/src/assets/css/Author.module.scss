@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  flex-direction: column;
+  width: 100vw;
+  
+  .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #56CC9D;
+    color: white;
+    width: 30rem;
+    height: 13rem;
+    padding: 20px;
+    border-radius: 10px;
+
+    strong{
+      margin-top: 10px;
+    }
+
+    .p{
+      margin-top: 15px;
+    }
+  }
+
+  .btn{
+    margin-top: 30px;
+  }
+}
